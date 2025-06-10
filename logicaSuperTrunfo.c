@@ -3,8 +3,8 @@
 #include <time.h>
 
 int main(){
-    int resultado1;                             /*tive que pesquisar pq a segunda estava dando problema no %c, vi que era uma questão de buffer estava com o caractere \n 
-    int resultado2;                              e que era so dar um espaço no segundo %c que ele ignora os caracteres em branco pendentes*/ 
+    int resultado1;                             
+    int resultado2;                              
     char primeiroatributo;
     char segundoatributo;
 
@@ -198,3 +198,5 @@ int main(){
 
     return 0;
 }
+/*tive que pesquisar pq a segunda estava dando problema no %c, vi que era uma questão de buffer estava com o caractere \n 
+e que era so dar um espaço no segundo %c que ele ignora os caracteres em branco pendente*/ 
